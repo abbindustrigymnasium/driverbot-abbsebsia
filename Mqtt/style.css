@@ -1,0 +1,169 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(17, 224, 224);
+	overflow: hidden;
+}
+
+#buttons{
+    height: 300px;
+    margin-top: 10px;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+#driverButton1{
+    height: 100px;
+    width: 150px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#driverButton2{
+    height: 100px;
+    width: 150px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#driverButton3{
+    height: 100px;
+    width: 150px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#driverButton4{
+    height: 100px;
+    width: 150px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#StartButton{
+  
+    height: 100px;
+    width: 200px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-left: 525px;
+	
+    
+}
+#StartButton:hover {
+	background-color:#6cce3b;
+}
+#StartButton:active {
+	position:relative;
+	top: 5px;
+   
+}
+#driverButton4:active {
+	position:relative;
+	top: 5px;
+    
+}
+#driverButton3:active {
+	position:relative;
+	top: 5px;
+    
+}
+#driverButton2:active {
+	position:relative;
+	top: 5px;
+    
+}
+#driverButton1:active {
+	position:relative;
+	top: 5px;
+    
+}
+
+#driverTitle{
+
+    text-align: center;
+    text-shadow: black;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0px;
+  
+}
+#Started{
+    
+    height: 200px;
+	display: flexbox;
+    align-content: center;
+    margin-top: 25px;
+   
+    margin-bottom: 0px;
+	
+	justify-content: center;
+}
+
+#DriverText{
+    height: 50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white ;
+    border: 2px black solid;
+    display: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
